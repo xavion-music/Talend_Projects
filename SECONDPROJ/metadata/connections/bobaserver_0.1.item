@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_6zVhwFkIEfCgfb1LDFpYCA" name="bobaserver" id="_nkd5IFkIEfCgfb1LDFpYCA" label="bobaserver" dataPackage="_61YJIFkIEfCgfb1LDFpYCA" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@boba.fast.sheridanc.on.ca:1521:aces" dbVersionString="ORACLE_12" Port="1521" Username="s1_Chaupala" Password="enc:system.encryption.key.v1:3vleWgmCvZeHyLL56AZXyfLRZd/Aut63oI3jm+FlB3vjO4ZVjQ==" ServerName="boba.fast.sheridanc.on.ca" DatasourceName="" FileFieldName="" SID="aces" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="S1_CHAUPALA">
+    <taggedValue xmi:id="_6zWI0FkIEfCgfb1LDFpYCA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_6z47YFkIEfCgfb1LDFpYCA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_6z7-sFkIEfCgfb1LDFpYCA" tag="Status" value=""/>
+    <taggedValue xmi:id="_6z7-sVkIEfCgfb1LDFpYCA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_6z7-slkIEfCgfb1LDFpYCA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_6z7-s1kIEfCgfb1LDFpYCA" tag="Description" value=""/>
+    <taggedValue xmi:id="_6z7-tFkIEfCgfb1LDFpYCA" tag="Author" value=""/>
+    <taggedValue xmi:id="_6z7-tVkIEfCgfb1LDFpYCA" tag="otherParameter"/>
+    <taggedValue xmi:id="_60k34FkIEfCgfb1LDFpYCA" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_60k34VkIEfCgfb1LDFpYCA" tag="DB ProductVersion" value="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#xA;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options"/>
+    <taggedValue xmi:id="_60k34lkIEfCgfb1LDFpYCA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_6zWI0VkIEfCgfb1LDFpYCA" key="CONN_PARA_KEY_USERNAME" value="s1_Chaupala"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_61YJIFkIEfCgfb1LDFpYCA" name="S1_CHAUPALA" dataManager="_6zVhwFkIEfCgfb1LDFpYCA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_hkihkFkJEfCgfb1LDFpYCA" name="EMPLOYEE" id="_hkgsYFkJEfCgfb1LDFpYCA" label="EMPLOYEE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_hkihkVkJEfCgfb1LDFpYCA" name="EMPNAME" label="EMPNAME" length="20" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false">
+        <taggedValue xmi:id="_hkihklkJEfCgfb1LDFpYCA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_hkihk1kJEfCgfb1LDFpYCA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_hkihlFkJEfCgfb1LDFpYCA" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_hkihlVkJEfCgfb1LDFpYCA" name="STARTDATE" label="STARTDATE" length="7" sourceType="DATE" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_hkihllkJEfCgfb1LDFpYCA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_hkihl1kJEfCgfb1LDFpYCA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_hkihmFkJEfCgfb1LDFpYCA" name="DATE" numericPrecisionRadix="10" javaDataType="93"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_hkihmVkJEfCgfb1LDFpYCA" name="COMMISSIONRATE" label="COMMISSIONRATE" length="3" precision="1" sourceType="NUMBER" talendType="id_BigDecimal">
+        <taggedValue xmi:id="_hkihmlkJEfCgfb1LDFpYCA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_hkihm1kJEfCgfb1LDFpYCA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_hkihnFkJEfCgfb1LDFpYCA" name="NUMBER" numericPrecision="1" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_hkihnVkJEfCgfb1LDFpYCA" name="TITLE" label="TITLE" length="26" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_hkihnlkJEfCgfb1LDFpYCA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_hkihn1kJEfCgfb1LDFpYCA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_hkihoFkJEfCgfb1LDFpYCA" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_hkihoVkJEfCgfb1LDFpYCA" name="MANAGER" label="MANAGER" length="20" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_hkiholkJEfCgfb1LDFpYCA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_hkiho1kJEfCgfb1LDFpYCA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_hkihpFkJEfCgfb1LDFpYCA" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

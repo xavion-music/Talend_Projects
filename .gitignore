@@ -1,0 +1,9 @@
+.metadata/
+temp/
+*.log
+*.class
+*.iml
+.DS_Store
+*.zip
+*.tar.gz
+*.rar

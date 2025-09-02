@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_60VL0Fj-EfCw8YnZohPmfQ" name="LoadCSVToOracle" id="_nOGMEFj-EfCw8YnZohPmfQ" label="LoadCSVToOracle" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@boba.fast.sheridanc.on.ca:1521:aces" dbVersionString="ORACLE_12" Port="1521" Username="s1" Password="enc:system.encryption.key.v1:iGGct2IAK/4V6+vwqpFGZFxzC/nYwzLWTBJsNk441fJY3xxDeg==" ServerName="boba.fast.sheridanc.on.ca" DatasourceName="" FileFieldName="" SID="aces" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="S1">
+  <taggedValue xmi:id="_60Vy4Fj-EfCw8YnZohPmfQ" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_603-YFj-EfCw8YnZohPmfQ" tag="package filter" value=""/>
+  <taggedValue xmi:id="_609d8Fj-EfCw8YnZohPmfQ" tag="Status" value=""/>
+  <taggedValue xmi:id="_609d8Vj-EfCw8YnZohPmfQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_609d8lj-EfCw8YnZohPmfQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_609d81j-EfCw8YnZohPmfQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_609d9Fj-EfCw8YnZohPmfQ" tag="Author" value=""/>
+  <taggedValue xmi:id="_609d9Vj-EfCw8YnZohPmfQ" tag="otherParameter"/>
+  <parameters xmi:id="_60Vy4Vj-EfCw8YnZohPmfQ" key="CONN_PARA_KEY_USERNAME" value="s1"/>
+</TalendMetadata:DatabaseConnection>

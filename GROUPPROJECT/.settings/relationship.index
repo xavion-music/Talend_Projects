@@ -1,0 +1,127 @@
+[ {
+  "baseItem" : {
+    "id" : "_474p8HR9EfCqhsFKC7kb5w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - CUSTOMER",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - DVDS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - DVD_RENTAL",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_B2mhMGEBEfCIkdrlWOvG0g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_7vDxoGD0EfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7vDxoGD0EfCIkdrlWOvG0g - metadata1",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - DVDS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Q-7gUGEDEfCIkdrlWOvG0g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_uDWPkGD0EfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - DVD_RENTAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_uDWPkGD0EfCIkdrlWOvG0g - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bZY7wGD9EfCIkdrlWOvG0g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_WCWfQGD1EfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - CUSTOMER",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_WCWfQGD1EfCIkdrlWOvG0g - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_cm0VAGD5EfCIkdrlWOvG0g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_XixloGD0EfCIkdrlWOvG0g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - MOVIE_CATEGORY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_XixloGD0EfCIkdrlWOvG0g - metadata1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lGRU8HR-EfCqhsFKC7kb5w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PAUuUGDyEfCIkdrlWOvG0g - CUSTOMER",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
